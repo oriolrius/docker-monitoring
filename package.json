@@ -1,0 +1,22 @@
+{
+  "name": "monitoring",
+  "version": "1.0.0",
+  "description": "monitoring docker containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.oriolrius.cat:222/oriolrius/monitoring.git"
+  },
+  "author": "Oriol Rius",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.6",
+    "docker-events": "0.0.2",
+    "dockerode": "^3.2.1",
+    "nodemon": "^2.0.7",
+    "sparkpost": "^2.1.4"
+  }
+}

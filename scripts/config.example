@@ -1,0 +1,3 @@
+EMAIL_NOTIFICATION='user@example.tld'
+SERVICES="docker.service dbus.service fail2ban.service ssh.service systemd-networkd.service zerotier-one.service"
+HOSTNAME="your_hostname"

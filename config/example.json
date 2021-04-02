@@ -1,0 +1,6 @@
+{
+  "SPARKPOST_API_KEY": "your_sparkpost_api_key",
+  "TO": "user@example.tld",
+  "FROM": "user@example.tld",
+  "HOSTNAME": "your_hostname"
+}

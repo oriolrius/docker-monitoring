@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  docker-monitoring:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker-monitoring
+    container_name: docker-monitoring
+    restart: unless-stopped
+    volumes:
+      - ./config:/docker-monitoring/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
